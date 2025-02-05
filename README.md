@@ -1,6 +1,6 @@
 # itconfig PI 3 & 4, 5
 
-ltConfig configuration for Deluge on Raspberry Pi 3 and 4
+ltConfig configuration for Deluge on Raspberry Pi 3 and 4, 5
 
 This is an optimized itconfig.conf to prevent CPU and USB harddrive overload with deluge.
 
