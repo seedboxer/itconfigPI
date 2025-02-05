@@ -20,7 +20,7 @@ This project provides a fine-tuned configuration for Deluge on Raspberry Pi & ot
 
    cp core.conf ~/.config/deluge/
 
-systemctl restart deluged
+   systemctl restart deluged
 
 ## Compatibility
 
