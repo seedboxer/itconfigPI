@@ -1,4 +1,4 @@
-# itconfig PI 3 & 4
+# itconfig PI 3 & 4, 5
 
 ltConfig configuration for Deluge on Raspberry Pi 3 and 4
 
