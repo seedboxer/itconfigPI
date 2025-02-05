@@ -1,9 +1,9 @@
 # itconfigPI
 
-Optimized Deluge settings for Raspberry Pi to prevent overload.
+Optimized Deluge settings for Raspberry Pi and other low-power systems to prevent CPU overload rendering other services unusable.
 
 ## Overview
-This project provides a fine-tuned configuration for Deluge on Raspberry Pi & other lower power systems, ensuring efficient performance while avoiding excessive resource usage and preventing other services from being overloaded due to excessive read/write operations.
+This project provides a fine-tuned configuration for Deluge on Raspberry Pi & other low power systems, ensuring efficient performance while avoiding excessive resource usage and preventing other services from being overloaded due to excessive read/write operations.
 
 ## Features
 - Optimized cache settings to reduce disk I/O.
@@ -24,7 +24,7 @@ systemctl restart deluged
 
 ## Compatibility
 
-    Designed for Raspberry Pi (tested on Raspberry Pi 3, 4, and 5) as well as other lower-power systems
+    Designed for Raspberry Pi (tested on Raspberry Pi 3, 4, and 5) as well as other low-power systems
     Works with Deluge 2.x.
 
 ## Notes
