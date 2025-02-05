@@ -16,21 +16,21 @@ This project provides a fine-tuned configuration for Deluge on Raspberry Pi & ot
    ```sh
    git clone https://github.com/seedboxer/itconfigPI.git
 
-cd itconfigPI
+   cd itconfigPI
 
-cp core.conf ~/.config/deluge/
+   cp core.conf ~/.config/deluge/
 
 systemctl restart deluged
 
 ## Compatibility
 
-    Designed for Raspberry Pi (tested on Raspberry Pi 3, 4, and 5) as well as other low-power systems
-    Works with Deluge 2.x.
+- Designed for Raspberry Pi (tested on Raspberry Pi 3, 4, and 5) as well as other low-power systems
+- Works with Deluge 2.x.
 
 ## Notes
 
-    Adjust final settings as needed based on your network speed and storage setup.
-    Ensure Deluge is stopped before modifying core.conf to avoid corruption.
+- Adjust final settings as needed based on your network speed and storage setup.
+- Ensure Deluge is stopped before modifying core.conf to avoid corruption.
 
 License
 
