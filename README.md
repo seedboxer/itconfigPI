@@ -1,7 +1,37 @@
-# itconfig PI 3 & 4, 5
+# itconfigPI
 
-ltConfig configuration for Deluge on Raspberry Pi 3 and 4, 5
+Optimized Deluge settings for Raspberry Pi to prevent overload.
 
-This is an optimized itconfig.conf to prevent CPU and USB harddrive overload with deluge.
+## Overview
+This project provides a fine-tuned configuration for Deluge on Raspberry Pi & other lower power systems, ensuring efficient performance while avoiding excessive resource usage and preventing other services from being overloaded due to excessive read/write operations.
 
-These settings have been tested and proved stable with other services running at the same time on both Raspberry pi.
+## Features
+- Optimized cache settings to reduce disk I/O.
+- Limited concurrent connections to prevent CPU and RAM overload.
+- Tweaked queue and bandwidth settings for a balanced download experience.
+- Configured to minimize the impact on other running services by reducing excessive read/write operations while trying to not over limit Deluge performance.
+
+## Installation
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/seedboxer/itconfigPI.git
+
+cd itconfigPI
+
+cp core.conf ~/.config/deluge/
+
+systemctl restart deluged
+
+## Compatibility
+
+    Designed for Raspberry Pi (tested on Raspberry Pi 3, 4, and 5) as well as other lower-power systems
+    Works with Deluge 2.x.
+
+## Notes
+
+    Adjust final settings as needed based on your network speed and storage setup.
+    Ensure Deluge is stopped before modifying core.conf to avoid corruption.
+
+License
+
+This project is released under the MIT License.
